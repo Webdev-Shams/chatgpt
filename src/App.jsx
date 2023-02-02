@@ -51,6 +51,10 @@ function App() {
       <div className="w-full max-w-4xl min-w-[20rem] self-center">
         <ChatInput sendMessage={sendMessage} loading={mutation.isLoading} />
       </div>
+
+      <div className="mx-auto mt-5">
+        <p className="text-black">© developed by Shams Saif. </p>
+      </div>
     </div>
   );
 }
